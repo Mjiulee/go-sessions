@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/kataras/go-sessions"
-	"github.com/kataras/go-sessions/sessiondb/redis/service"
+	"github.com/mjiulee/go-sessions"
+	"github.com/mjiulee/go-sessions/sessiondb/redis/service"
 )
 
 // Database the redis back-end session database for the sessions.

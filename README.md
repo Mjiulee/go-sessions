@@ -1,11 +1,11 @@
 <p align="center">
 
-<img  width="600" src="https://github.com/kataras/go-sessions/raw/master/logo_900_273_bg_white.png">
+<img  width="600" src="https://github.com/mjiulee/go-sessions/raw/master/logo_900_273_bg_white.png">
 <br/><br/>
 
  <a href="https://travis-ci.org/kataras/go-sessions"><img src="https://img.shields.io/travis/kataras/go-sessions.svg?style=flat-square" alt="Build Status"></a>
- <a href="https://github.com/kataras/go-sessions/blob/master/LICENSE"><img src="https://img.shields.io/badge/%20license-MIT%20%20License%20-E91E63.svg?style=flat-square" alt="License"></a>
- <a href="https://github.com/kataras/go-sessions/releases"><img src="https://img.shields.io/badge/%20release%20-%20v3.1.0-blue.svg?style=flat-square" alt="Releases"></a>
+ <a href="https://github.com/mjiulee/go-sessions/blob/master/LICENSE"><img src="https://img.shields.io/badge/%20license-MIT%20%20License%20-E91E63.svg?style=flat-square" alt="License"></a>
+ <a href="https://github.com/mjiulee/go-sessions/releases"><img src="https://img.shields.io/badge/%20release%20-%20v3.1.0-blue.svg?style=flat-square" alt="Releases"></a>
  <a href="#documentation"><img src="https://img.shields.io/badge/%20docs-reference-5272B4.svg?style=flat-square" alt="Read me docs"></a>
  <a href="https://kataras.rocket.chat/channel/go-sessions"><img src="https://img.shields.io/badge/%20community-chat-00BCD4.svg?style=flat-square" alt="Build Status"></a>
  <a href="https://golang.org"><img src="https://img.shields.io/badge/powered_by-Go-3362c2.svg?style=flat-square" alt="Built with GoLang"></a>
@@ -21,7 +21,7 @@ Quick view
 -----------
 
 ```go
-import "github.com/kataras/go-sessions"
+import "github.com/mjiulee/go-sessions"
 
 sess := sessions.Start(http.ResponseWriter, *http.Request)
 sess.
@@ -53,7 +53,7 @@ Installation
 The only requirement is the [Go Programming Language](https://golang.org/dl), at least v1.7.
 
 ```bash
-$ go get -u github.com/kataras/go-sessions
+$ go get -u github.com/mjiulee/go-sessions
 ```
 
 Features
@@ -67,7 +67,7 @@ Features
 Documentation
 ------------
 
-Take a look at the [./examples](https://github.com/kataras/go-sessions/tree/master/_examples) folder.
+Take a look at the [./examples](https://github.com/mjiulee/go-sessions/tree/master/_examples) folder.
 
 - [Overview](_examples/overview/main.go)
 - [Standalone](_examples/standalone/main.go)
@@ -118,7 +118,7 @@ DestroyAll()
 
 // UseDatabase ,optionally, adds a session database to the manager's provider,
 // a session db doesn't have write access
-// see https://github.com/kataras/go-sessions/tree/master/sessiondb
+// see https://github.com/mjiulee/go-sessions/tree/master/sessiondb
 UseDatabase(Database)
 ```
 
@@ -239,7 +239,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kataras/go-sessions"
+	"github.com/mjiulee/go-sessions"
 )
 
 type businessModel struct {
@@ -403,7 +403,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kataras/go-sessions"
+	"github.com/mjiulee/go-sessions"
 	"github.com/valyala/fasthttp"
 )
 
@@ -468,8 +468,8 @@ FAQ
 
 If you'd like to discuss this package, or ask questions about it, feel free to
 
- * Explore [these questions](https://github.com/kataras/go-sessions/issues?go-sessions=label%3Aquestion).
- * Post an issue or  idea [here](https://github.com/kataras/go-sessions/issues).
+ * Explore [these questions](https://github.com/mjiulee/go-sessions/issues?go-sessions=label%3Aquestion).
+ * Post an issue or  idea [here](https://github.com/mjiulee/go-sessions/issues).
  * Navigate to the [Chat][Chat].
 
 
@@ -505,9 +505,9 @@ License can be found [here](LICENSE).
 [Travis Widget]: https://img.shields.io/travis/kataras/go-sessions.svg?style=flat-square
 [Travis]: http://travis-ci.org/kataras/go-sessions
 [License Widget]: https://img.shields.io/badge/license-MIT%20%20License%20-E91E63.svg?style=flat-square
-[License]: https://github.com/kataras/go-sessions/blob/master/LICENSE
+[License]: https://github.com/mjiulee/go-sessions/blob/master/LICENSE
 [Release Widget]: https://img.shields.io/badge/release-v3.1.0-blue.svg?style=flat-square
-[Release]: https://github.com/kataras/go-sessions/releases
+[Release]: https://github.com/mjiulee/go-sessions/releases
 [Chat Widget]: https://img.shields.io/badge/community-chat-00BCD4.svg?style=flat-square
 [Chat]: https://kataras.rocket.chat/channel/go-sessions
 [ChatMain]: https://kataras.rocket.chat/channel/go-sessions
@@ -515,7 +515,7 @@ License can be found [here](LICENSE).
 [Report Widget]: https://img.shields.io/badge/report%20card-A%2B-F44336.svg?style=flat-square
 [Report]: http://goreportcard.com/report/kataras/go-sessions
 [Documentation Widget]: https://img.shields.io/badge/docs-reference-5272B4.svg?style=flat-square
-[Documentation]: https://godoc.org/github.com/kataras/go-sessions
+[Documentation]: https://godoc.org/github.com/mjiulee/go-sessions
 [Language Widget]: https://img.shields.io/badge/powered_by-Go-3362c2.svg?style=flat-square
 [Language]: http://golang.org
 [Platform Widget]: https://img.shields.io/badge/platform-Any--OS-yellow.svg?style=flat-square

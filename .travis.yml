@@ -6,7 +6,7 @@ go:
   - 1.9.x
   - 1.10.x
   - 1.11.x
-go_import_path: github.com/kataras/go-sessions
+go_import_path: github.com/mjiulee/go-sessions
 install:
   - go get -t ./...
 script:
