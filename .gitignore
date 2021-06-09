@@ -1,2 +1,5 @@
 .vscode
 /_examples/**/node_modules
+
+.idea
+.idea/*
